@@ -10,17 +10,19 @@
     
     align-items: center;
     display: flex;
-    justify-content: space-between;
-  
-   padding-left:200px;
+   
+/*   
+   padding-left:200px; */
     position: relative;
+    /* border:1px solid black; */
+    justify-content: center;
 }
 
 .nav-bar-menu {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width:100%;
+   
     list-style: none;
     font-weight: 400px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -110,15 +112,15 @@ li {
 .sous-section1 {
     display: flex;
     justify-content: space-around;
-    padding-left: 100px;
-    padding-right: 100px;
+    /* padding-left: 100px;
+    padding-right: 100px; */
 }
 
 .column1 {
     width: 40%;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-align: justify;
-    height: 100%;
+    /* height: 100%; */
     Font-size: 16px;
     Font-weight: 400px;
     Line-height: 28px;
@@ -131,7 +133,7 @@ li {
     background: white;
     font-weight: 400;
     display: flex;
-    box-sizing: inherit;
+    
     margin-right: 80px;
     margin-left: 80px;
     margin-top: 30px;
@@ -141,14 +143,13 @@ li {
 .sous1-section2 {
     background: #00ccb1;
     border-radius: 10px;
-    padding: 1.375em 2.5em 0;
+    /* padding: 1.375em 2.5em 0; */
     overflow: hidden;
     color: #fff;
     text-shadow: none;
     width: 400px;
     height: 350px;
-    margin-right: 60px;
-    margin-left: 60px;
+    padding:10px;
 }
 
 .title1-sous1-section2 {
@@ -207,14 +208,13 @@ li {
 .sous2-section2 {
     background: #3d83df;
     border-radius: 10px;
-    padding: 1.375em 2.5em 0;
+  padding:10px;
     overflow: hidden;
     color: #fff;
     text-shadow: none;
     width: 400px;
     height: 350px;
-    margin-right: 60px;
-    margin-left: 60px;
+    
 }
 
 .title1-section3 {
@@ -225,17 +225,17 @@ li {
     color: rgb(0, 179, 155);
     width: 250px;
     height: 150px;
-    padding-left: 80px;
+    /* padding-left: 80px; */
 }
 
 .list-section3 {
-    padding-left: 30px;
-    margin-left: 40px;
-    width: 67%;
+    /* padding-left: 30px;
+    margin-left: 40px; */
+    width: 60%;
     height: 40px;
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+   
     flex-wrap: wrap;
 }
 
@@ -286,8 +286,9 @@ svg:hover {
 }
 
 .sous1-section4 {
+    width:400px;
     /* border:1px solid black; */
-    margin-left: 50px;
+    /* margin-left: 50px; */
     /* padding-left:150px; */
 }
 
@@ -314,10 +315,10 @@ svg:hover {
 
 .sous2-section4 {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    width: 300px;
+   flex-wrap: wrap;
+    width: 40%;
     margin-top: 50px;
+    justify-content: center;
     /* border:1px solid black; */
 }
 
@@ -325,12 +326,13 @@ svg:hover {
     background: #fff;
     border-radius: 5px;
     height: 210px;
-    width: 210px;
+    width:200px;
     padding: 15px;
     font-size: .8125em;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 5px;
 }
 
 .title1-bloc1 {
@@ -346,8 +348,7 @@ svg:hover {
 }
 
 .logo-bloc1 {
-    padding-left: 20%;
-    padding-right: 30%;
+  
 }
 
 .bloc1-content {
@@ -364,8 +365,11 @@ svg:hover {
 }
 
 .section5 {
-    width: 1349px;
+    width: 100%;
     height: 327px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .title-section5 {
@@ -376,7 +380,7 @@ svg:hover {
     color: rgb(0, 179, 155);
     text-align: center;
     width: 420px;
-    padding-left: 430px;
+    /* padding-left: 430px; */
 }
 
 .p-section5 {
@@ -388,26 +392,26 @@ svg:hover {
     text-align: center;
     width: 420px;
     height: 80px;
-    padding-left: 430px;
+    /* padding-left: 430px; */
 }
 
 .section6 {
     background-color: #fff;
-    width: 100%;
+   
     height: 794px;
-    margin: 0 -10px;
-    zoom: 1;
-    box-sizing: inherit;
+    /* margin: 0 -10px; */
+   width:90%;
     padding: 10px;
     display: flex;
     justify-content: space-around;
-    flex-direction: column;
+    
     flex-wrap: wrap;
 }
 
 .card {
     width: 300px;
-    padding: 10px;
+    margin:10px;
+    
 }
 
 .card:hover {
@@ -469,11 +473,11 @@ svg:hover {
     font-size: .75em;
     color: #ababab;
     text-align: center;
-    padding: 1em 0;
+   
     zoom: 1;
     width: 100%;
     padding: 0 20px;
-    margin: 0 auto;
+  
     height: 113px;
 }
 
